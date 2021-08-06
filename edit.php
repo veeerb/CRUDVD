@@ -71,8 +71,10 @@ $title = 'Edit Records';
                     number with anyone else.</small>
             </div></br>
 
-        <button type="submit" name="submit" class="btn btn-success btn-block">Update</button>
+        <a href="viewrecords.php" class="btn btn-default">Back</a>
+        <button type="submit" name="submit" class="btn btn-success btn">Update</button>
         </form>   
+  
 
         <?php }?>
 </br>
