@@ -70,7 +70,7 @@
 
       public function getStudentDetails($id){
         try{
-          $sql ="select *from students st inner join specialties sp on st.specialty_id = sp.specialty_id where 
+          $sql ="select * from students st inner join specialties sp on st.specialty_id = sp.specialty_id where 
           student_id = :id";
           $stmt = $this->db->prepare($sql);
           $stmt->bindparam(':id', $id);

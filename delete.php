@@ -1,7 +1,6 @@
 <?php 
-$title = 'Delete';
 
-    require_once 'resources/header.php'; 
+    require_once 'resources/auth_check.php';
     require_once 'db/conn.php';
 
    if(!isset($_GET['id'])){
@@ -26,10 +25,3 @@ $title = 'Delete';
        }
    }
 ?>
-
-</br>
-</br>
-</br>
-</br>
-</br>
-<?php require_once 'resources/footer.php'; ?>

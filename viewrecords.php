@@ -2,6 +2,7 @@
 $title = 'View Records';
 
     require_once 'resources/header.php'; 
+    require_once 'resources/auth_check.php';
     require_once 'db/conn.php';
 
     //get all students
